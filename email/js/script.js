@@ -22,7 +22,17 @@ buttonElement.addEventListener("click",
         
         // Dichiaro una variabile booleana
         let elementoPresente = false;
-        
+
+        // Creo un ciclo for per verificare che l'email
+        // dell'utente sia uguale almeno ad uno degli
+        // elementi del mio array
+        for(let i = 0; i < emailCasuali.length; i++){
+            if(emailCasuali[i] == emailUtente ){
+                elementoPresente = true;                
+            }
+        };
+        console.log(elementoPresente);
+
     }
 
 )
