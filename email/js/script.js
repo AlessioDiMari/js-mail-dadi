@@ -17,7 +17,12 @@ const buttonElement = document.getElementById("button-verify");
 // sia inserita nel mio array al click del button
 buttonElement.addEventListener("click",
     function(){
-
+        // Dichiaro l'email dell'utente
+        const emailUtente = document.getElementById("user-email").value;
+        
+        // Dichiaro una variabile booleana
+        let elementoPresente = false;
+        
     }
 
 )
