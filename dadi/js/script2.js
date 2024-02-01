@@ -24,7 +24,16 @@ buttonElement.addEventListener("click",
         document.getElementById("esito-computer").innerText = "Al computer è uscito: " + casualeComputer;
 
 
-        
+        // Faccio un if per dichiarare chi ha vinto o  
+        // se c'è stato un pareggio
+        if( casualeUtente > casualeComputer){
+            document.getElementById("esito-partita").innerText = "Il vincitore è l'utente!!!";
+        } else if ( casualeUtente < casualeComputer){
+            document.getElementById("esito-partita").innerText = "Il vincitore è il computer!!!";
+        } else {
+            document.getElementById("esito-partita").innerText = "WOW, avete pareggiato!!!!";
+        }
+
     }
 
 )
