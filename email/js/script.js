@@ -33,6 +33,12 @@ buttonElement.addEventListener("click",
         };
         console.log(elementoPresente);
 
+        // Creo un alert in base alla variabile booleana
+        if (elementoPresente){
+            alert("Benvenuto, divertiti sulla nostra pagina")
+        } else {
+            alert("Accesso negato, prova a cambuare email")
+        }
     }
 
 )
